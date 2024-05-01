@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけん</title>
+</head>
+<body>
+    <div>じゃんけん</div>
+    <select class="choices">
+        <option class="rock" value="グー">グー</option>
+        <option class="scissors" value="チョキ">チョキ</option>
+        <option class="paper" value="パー">パー</option>
+    </select>
+
+    <button class="btn">決定</button>
+
+    <div class="result"></div>
+
+    <input class="enemy" type="text" readonly placeholder="敵" style="width:70px;">敵の手</input>
+    
+    <br>ゲーム数<div class="games"></div>
+    勝利<div class="win"></div>
+    引き分け<div class="draw"></div>
+    敗北<div class="lose"></div>
+    <script src="index.js"></script>
+</body>
+</html>
